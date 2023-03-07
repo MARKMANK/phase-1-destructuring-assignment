@@ -4,6 +4,7 @@ const { expect } = require("chai")
 
 describe("index.js", () => {
   it("String: uses destructuring to declare five animal sounds", () => {
+    console.log(moo)
     expect(moo).to.exist
     expect(moo).to.equal("cow")
     expect(neigh).to.exist
